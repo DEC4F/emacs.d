@@ -175,8 +175,12 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
-(require 'init-local nil t)
+(require 'init-local)
+(require 'init-nyan)
+(require 'init-ocaml)
+(require 'init-latex)
 
+(provide 'init)
 
 
 (provide 'init)
